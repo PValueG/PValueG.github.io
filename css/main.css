@@ -3,16 +3,9 @@ body {
   width: 1520px;
 }
 p {
-  color: white;
+  color: rgb(135, 112, 130);
   font-family: arial;
   font-size: 14px;
-}
-* {
-  box-sizing:border-box;
-}
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
 }
 /* Add a black background color to the top navigation */
 .topnav {
@@ -110,18 +103,15 @@ p {
   border: 2px solid gray;
   margin: 0;
 }
-/*@media screen and (max-width:800px) {
+@media screen and (max-width:800px) {
   .aboutContent, .topnav, .footer {
     width:100%; 
   }
 }
-*/
+
 #embedMusic{
 	float: right;
 	border:1px; 
 	color:(0, 0, 0, 0.12);
 	max-width: 300px;
-}
-@media screen and (min-width:320px) and (max-width: ) {
-  /* CSS for screens that are 320 pixels or less will be put in this section */
 }
