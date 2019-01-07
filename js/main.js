@@ -61,7 +61,7 @@ function darker() {
             sessionStorage.setItem('cc', '#000000');       
      }
     else if (sessionStorage.getItem('newBackgroundnight') == null || undefined) {
-        sessionStorage.setItem('newBackgroundnight', 'rgb(6, 23, 37)');
+        sessionStorage.setItem('newBackgroundnight', 'rgb(00, 00, 00)');
         sessionStorage.setItem('cc', '#000000');
         
     }
