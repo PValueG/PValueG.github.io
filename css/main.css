@@ -243,12 +243,13 @@ p {
 }
 #embedMusic{
 	position: relative;
-	top: 70px;
-	right:0px;
+	/*top: 70px;
+	right:0px;*/
+	float: right;
 	border:1px; 
 	color:(0, 0, 0, 0.12);
 	/*max-width: 200px;*/
-	width: 40%;
+	width: 30%;
 }
 .newsContent{
 	/*width: 300px;*/
