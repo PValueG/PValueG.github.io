@@ -133,6 +133,7 @@ p {
 body {
   background-color: black;
   width: 600px;
+  height: 600px;
 }
 p {
   color: rgb(135, 112, 130);
