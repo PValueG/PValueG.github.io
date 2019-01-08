@@ -7,16 +7,17 @@ p {
   font-family: arial;
   font-size: 14px;
 }
-/* Add a black background color to the top navigation */
+
 .topnav {
   background-color: black;
   overflow: hidden;
   border: 2px solid white;
   /*border-radius: 25px;*/
   width: 100%;
+  border-radius: 5px;
 }
 
-/* Style the links inside the navigation bar */
+
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -26,7 +27,7 @@ p {
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
+/* Changes the colour of links when the cursor hovers over them */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
@@ -38,10 +39,11 @@ p {
   overflow: hidden;
   bottom: 0;
   position: fixed;
-  width: 100%;
+  width: 1520px;
   border: 2px solid white;
   /*border-radius: 25px;*/
   text-align: center;
+  border-radius: 5px;
 }
 
 #munaImage {
