@@ -133,7 +133,6 @@ p {
 body {
   background-color: black;
   width: 600px;
-  height: 600px;
 }
 p {
   color: rgb(135, 112, 130);
@@ -146,7 +145,7 @@ p {
   overflow: hidden;
   border: 2px solid white;
   /*border-radius: 25px;*/
-  width: 600px;
+  width: 500px;
   border-radius: 5px;
 }
 
@@ -172,7 +171,7 @@ p {
   overflow: hidden;
   bottom: 0;
   position: fixed;
-  width: 600px;
+  width: 500px;
   border: 2px solid white;
   /*border-radius: 25px;*/
   text-align: center;
