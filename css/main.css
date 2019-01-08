@@ -241,7 +241,7 @@ p {
 #embedMusic{
 	position: absolute;
 	top: 70px;
-	right:10px;
+	right:0px;
 	border:1px; 
 	color:(0, 0, 0, 0.12);
 	max-width: 200px;
