@@ -132,7 +132,7 @@ p {
 @media only screen and (max-width:600px) {
 body {
   background-color: black;
-  width: 500px;
+  width: 300px;
 }
 p {
   color: rgb(135, 112, 130);
