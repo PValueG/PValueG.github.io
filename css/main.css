@@ -129,7 +129,7 @@ p {
 
 /*The start of the mobile interoperobility */
 
-@media (max-width:600px) {
+@media only screen and (max-width:600px) {
 body {
   background-color: black;
   width: 500px;
@@ -243,8 +243,8 @@ p {
 }
 #embedMusic{
 	position: relative;
-	/*top: 70px;
-	right:0px;*/
+	/*top: 70px;*/
+	right:0px;
 	float: right;
 	border:1px; 
 	color:(0, 0, 0, 0.12);
