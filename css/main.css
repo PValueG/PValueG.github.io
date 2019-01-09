@@ -1,3 +1,10 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+@-ms-viewport {
+  width: device-width ;
+}
 body {
   background-color: black;
   width: 1520px;
@@ -132,7 +139,7 @@ p {
 @media only screen and (max-width:600px) {
 body {
   background-color: black;
-  width: 300px;
+  max-width: 600px;
 }
 p {
   color: rgb(135, 112, 130);
@@ -166,26 +173,26 @@ p {
   color: black;
 }
 
-
+@media only screen and (max-width:600px) {
 .footer {
   background-color: black;
   overflow: hidden;
   bottom: 0;
-  position: fixed;
+  /*position: fixed;*/
   /*width: 500px;*/
   border: 2px solid white;
   /*border-radius: 25px;*/
-  text-align: center;
+  /*text-align: center;*/
   border-radius: 5px;
   width: 100%;
 }
-
+}
 #munaImage {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
   position: absolute;
-  top:270px;
+  top:330px;
 }
 
 #munaImage:hover {opacity: 0.7;}
@@ -234,6 +241,7 @@ p {
     width: 100%;
   }
 }
+@media only screen and (max-width:600px) {
 .aboutContent{
 	/*width: 300px;*/
 	width: 60%;
@@ -241,6 +249,7 @@ p {
   border: 2px solid gray;
   margin: 0;
 }
+@media only screen and (max-width:600px) {
 #embedMusic{
 	position: relative;
 	/*top: 70px;*/
@@ -251,6 +260,8 @@ p {
 	/*max-width: 200px;*/
 	width: 30%;
 }
+}
+@media only screen and (max-width:600px) {
 .newsContent{
 	/*width: 300px;*/
 	width: 60%;
@@ -258,11 +269,15 @@ p {
   border: 2px solid gray;
   margin: 0;
 }
+}
+@media only screen and (max-width:600px) {
 .homeContent{
 	/*width: 300px;*/
 	width: 60%;
   padding: 0px;
   border: 2px solid gray;
   margin: 0;
+}
+}
 }
 }
