@@ -7,6 +7,10 @@ p {
   font-family: arial;
   font-size: 14px;
 }
+h1{
+	color: rgb(135, 112, 130);
+  	font-family: arial;
+}
 
 .topnav {
   background-color: black;
@@ -144,6 +148,17 @@ p {
   		transition: 0.3s;
   		position: absolute;
   		top:350px;
+	}
+	.aboutContent{
+		width: 94s%;
+  		padding: 0px;
+  		border: 1px solid gray;
+  		margin: 0;
+	}
+	p{
+		color: rgb(135, 112, 130);
+  		font-family: arial;
+  		font-size: 11px;
 	}
 } 
 
